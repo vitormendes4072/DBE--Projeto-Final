@@ -1,0 +1,37 @@
+@charset "utf-8";
+
+body{
+	font-family: 'Berlin Sans FB', sans-serif;
+}
+
+.container {
+	width: 100vw;
+	height: 70vh;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	background-color: #eee;
+}
+.conteiner h1{
+	margin-left: 560px;
+	margin-top: 50px;
+}
+
+.form{
+	width: 90%;
+	height: auto;
+	background-color: hsla(0, 0%, 100%, .8);
+	box-shadow: 0 4px 40px 0 rgb(0 0 0/ 13%);
+	padding:40px;
+	float:left;
+	text-align: justify;
+	margin-top: 50px;
+	margin-left: 60px;
+	
+}
+
+.botaologar{
+	width: 200px;
+	background-color: #01aee4!important;
+	color:#fff;
+}
